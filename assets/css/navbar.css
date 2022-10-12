@@ -1,11 +1,11 @@
 /* IMPORTED FONTS */
 @font-face {
   font-family: FirstF;
-  src: url(/assets/font/Kaushan\ Script\ Regular.ttf);
+  src: url(./assets/font/Kaushan\ Script\ Regular.ttf);
 }
 @font-face {
   font-family: SecondF;
-  src: url(/assets/font/ROCK.TTF);
+  src: url(./assets/font/ROCK.TTF);
 }
 
 
