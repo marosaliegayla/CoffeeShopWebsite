@@ -2,6 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Work+Sans&display=swap');
 /* NAVBAR */
 
+.title {
+    font-family: 'Work Sans', sans-serif; 
+    color: #cc1100;  
+}
+
+.bg {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
+  }
+
 
 li {
     list-style: none;
