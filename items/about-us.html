@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espresso Express</title>
+    <link rel="icon" type="image/png" href="./assets/img/logo.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="about-us.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- NAVIGATION BAR -->
+<header class="header">
+    <nav class="navbar">
+        <div class="container">
+        <a href="index.html" class="nav-logo">Espresso Express</a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="about-us.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="menu.html" class="nav-link">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    
+    </nav>
+</header>
+<br>
+<main>
+<br>
+
+<main>
+    <div class="container">
+<h1 class="text-center">ABOUT US</h1>
+<br>
+
+<h2>Espresso Express</h2>
+<p>Its never to late to <strong>EXPRESS</strong>o yourself! <strong>Espresso Express</strong> is committed to offering the best coffee and baked goods available to us to be enjoyed by you-OUR CUSTOMER!</p>
+
+
+<h2>What do we offer?</h2>
+<p> to offer the best tasting and quality beverages and food items to you, our very appreciated customers!</p>
+
+<h2>Coffee</h2>
+<p>Our coffee beans are roasted twice per week and we receive them the next day to ensure their freshness for both the beverages we make in house.</p>
+
+<h2>Pastry</h2>
+<p>We only offer pastries from locally owned bakers who use the freshest and best ingredients available and deliver them daily to us to serve fresh to you! Our pastries and bakery items have a very short shelf-life due to the fact that no preservatives are used so make sure to check our shelves often!</p>
+
+<h2>What we can't promise</h2>
+<p>as most of you know good things come at a cost, that being said we can’t promise to be the cheapest coffee shop in the area but we can still promise to offer the best quality based on flavor, ingredients and locality while still offering the best prices possible!</p>
+
+<br>
+
+<p><strong>We invite you to stop by today to see (and taste) for yourself! There are just some things that you don’t want to compromise quality on and we think you’ll be happy we don’t!</strong></p>
+
+
+</div>
+
+</main>
+
+<br>
+<br>
+
+<!--footer-->
+<footer class="text-center text-lg-start">
+    <div class="container p-4 pb-0">
+      <form action="">
+        <div class="row">
+          <div class="col-auto mb-4 mb-md-0">
+            <p class="pt-2" style="color: #cc1100;">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <div class="col-md-5 col-12 mb-4 mb-md-0">
+            <div class="form-outline mb-4">
+              <input type="email" id="form5Example25" class="form-control" />
+              <label class="form-label" for="form5Example25" style="color: #cc1100;">Email address</label>
+            </div>
+          </div>
+          <div class="col-auto mb-4 mb-md-0">
+            <button type="submit" class="btn btn-dark mb-4">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="text-center p-3" style="background-color: #cc1100;">
+     <span style="color: #fff;">© 2020 Copyright:
+      <a href="https://marosaliegayla.github.io/CoffeeShopWebsite" style="color: #fff; font-weight: bolder;">Espresso Express </a>
+    </span> 
+    </div>
+  </footer>
+  
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script>
+    const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
+</script>
+</body>
+</html>
