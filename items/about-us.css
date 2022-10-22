@@ -4,13 +4,13 @@
 
   * {
     color: #cc1100;
+    text-align: center;
   }
 
-  .text-right {
-    text-align: right;
-  }
-
-  p{
-    text-align: justify;
+  p {
     color: black;
+  }
+
+  h2 {
+    text-align: center;
   }
